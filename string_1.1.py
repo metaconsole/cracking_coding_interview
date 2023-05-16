@@ -1,8 +1,6 @@
 # 1.1 Implement an algorithm to determine if a string has all unique characters. What if you can not use additional data structures?
 
-for c in [3,5,6]:
-	print(c)
-
+# solution has O**2 complexity but uses only primitives.
 def unique_char(s):
 	for c in s:
 		count = 0
